@@ -1,0 +1,6 @@
+"label","caption","divider","left","right","size","loc","order"
+"tab_descriptive","In-Sample Descriptive Statistics",1,1,"2:4","normalsize","main",1
+"tab_regtablr","Long-Run Estimates, Main Outcomes",1,1,,"tiny","main",2
+"tab_regtabsr","Short-Run Estimates, Main Outcomes",1,1,,"tiny","app",3
+"tab_sample","Democratic Regimes in Final Sample","c(2,3)",,"1:2","footnotesize","app",4
+"tab_robmods","List of Robustness and Sensitivity Checks",1,2,1,"normalsize","app",5

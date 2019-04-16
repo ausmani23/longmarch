@@ -1,0 +1,34 @@
+#the R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+#no images
+data/*.RData
+
+#folders
+archived/
+Drafts/
+files/
+output/
+paper/
+Presentation/
+preliminary data & analysis/
+
+#and original dataset,
+#prior to cleaning etc.
+data/dirty_data2.csv
+
+#and the .R files which do
+#cleaning, merging
+code/01_prelim.R
+code/02_merge.R
+code/03_prep.R
+code/04_checkmissing.R
+
+#and the user file
+.Rproj.user
+
+#and randoms
+desktop.ini

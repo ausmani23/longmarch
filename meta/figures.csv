@@ -1,0 +1,5 @@
+"imagefile","label","caption","loc","order","width"
+"fig_mobgains.pdf","fig_mobgains","Estimated Gains from Mobilization by Years Elapsed","main",1,"4.5in"
+"fig_robustness.pdf","fig_robustness","Estimates from Robustness Checks","app",1,"6.5in"
+"fig_progress.pdf","fig_progress","Estimated Deepening by Counterfactual","app",2,"4.5in"
+"fig_allcfs.pdf","fig_allcfs","Predicted Aggregate Trajectories by Counterfactual","app",3,"4.5in"

@@ -1,0 +1,47 @@
+
+%extra table
+
+\clearpage
+
+{\renewcommand{\arraystretch}{1.5}%    
+     
+     \begin{longtable}{ 
+     | >{\raggedright}p{0.2\textwidth} 
+     | >{\raggedright}p{0.15\textwidth} 
+     | p{0.5\textwidth} |
+    }
+    
+    \caption{Main Outcomes as Defined by V-Dem}
+    \label{tab_definitions} \\
+    
+    \hline
+	\textbf{Variable} & 
+	\textbf{V-Dem Name} &
+	\textbf{Definition} \\ 
+	\hline
+	
+		Electoral Democracy
+    & \texttt{v2x\_polyarchy}
+    & Electoral democracy prevails when there are clean  elections in which most of the population can participate, when civil society organizations and political parties operate freely, and when the result of these elections bears on the composition of the executive. It also requires that there be freedom of expression and an independent media.\\ \hline
+    	
+    Liberal Dimension
+    & \texttt{v2x\_liberal}
+    & The liberal component is higher when states protect individual and minority rights against the state and against the majority, which requires that civil liberties be protected, that the rule of law prevail, that there be an independent judiciary and checks on the exercise of executive power.\\ \hline  	
+    
+    Deliberative Dimension 
+    & \texttt{v2xdl\_delib}
+    & The deliberative component is higher when decisions are judgetd to be reached via deliberation characterized by a commitment to the common good, and not by emotional appeals, solidary attachments, parochialism, or coercion. V-Dem measures the extent to which political elites justify their behavior by adverting to the public good, respecting counter-arguments, and the extent to which they consult other elites.\\ \hline  	
+    
+    Participatory Dimension
+    & \texttt{v2x\_partip}
+    & The participatory component is higher in countries which actively involve citizens in the political process. It measures the extent to which citizens have direct influence on policy decisions, through civil society, through direct democratic initiatives, and through subnational bodies.\\ \hline  
+    
+    Egalitarian Dimension
+    & \texttt{v2x\_egal}
+    & The egalitarian component is higher in countries which reduce the barriers that ordinary people face, when trying to exercise their formal rights. It is thus higher in countries where resources and rights are judged to be distributed equally across social groups, and where this allocation meets their basic needs. \\ \hline  	
+        
+    \end{longtable}
+    
+} % end the array command
+
+\clearpage

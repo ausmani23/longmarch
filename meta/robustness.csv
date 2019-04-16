@@ -1,0 +1,25 @@
+"mname","propername","order"
+"pref","Preferred",1
+"dummy","Campaign Dummies",2
+"logdur","Log Campaign Length",3
+"droplong","Drop Longest Campaign",4
+"altcoding","Alternative Coding",5
+"navco","NAVCO Coding",6
+"sparse","Sparse",7
+"sparse_all","Sparse, All Obs. ",8
+"nopretrans","No Pre-Transition Controls",9
+"pretrans_sfc","Pre-Transition Controls, Fiscal",10
+"pretrans5","Pre-Transition Controls, 5-Yr CL",11
+"pretrans10","Pre-Transition Controls, 10-Yr CL",12
+"pretransCSR","Pre-Transition Controls, Repression",13
+"4lags","Four Lags of Dep. Var.",14
+"wpolity","World Polity Vars",15
+"trade","Trade Vars",16
+"earlystart","Includes Pre-1950 Transitions",17
+"latestart","Excludes Post-2000 Transitions",18
+"cgvspells","CGV-Based Spells",19
+"allobs_fe","All Years, Country Fixed Effects",20
+"fe","Dem Years, Country Fixed Effects",21
+"nobigoil1","Drop Biggest Oil Producer",22
+"nobigoil3","Drop Three Biggest Oil Producers",23
+"justoil","Sparse, Oil Only",24

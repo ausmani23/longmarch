@@ -1,0 +1,63 @@
+{\renewcommand{\arraystretch}{1.5}%    
+     
+     \begin{longtable}{ 
+     | >{\raggedright}p{0.2\textwidth} 
+     | >{\raggedright}p{0.15\textwidth} 
+     | p{0.5\textwidth} |
+    }
+    
+    \caption{Main Outcomes as Defined by V-Dem}
+    \label{tab_definitions} \\
+    
+    \hline
+	\textbf{Variable} & 
+	\textbf{V-Dem Name} &
+	\textbf{Definition} \\ 
+	\hline
+	
+    Deliberative Dimension 
+    & \texttt{v2xdl\_delib}
+    & The deliberative component is higher when decisions are judgetd to be reached via deliberation characterized by a commitment to the common good, and not by emotional appeals, solidary attachments, parochialism, or coercion. V-Dem measures the extent to which political elites justify their behavior by adverting to the public good, respecting counter-arguments, and the extent to which they consult other elites.\\ \hline  	
+    
+    Participatory Dimension
+    & \texttt{v2x\_partip}
+    & The participatory component is higher in countries which actively involve citizens in the political process. It measures the extent to which citizens have direct influence on policy decisions, through civil society, through direct democratic initiatives, and through subnational bodies.\\ \hline  
+    
+    Egalitarian Dimension
+    & \texttt{v2x\_egal}
+    & The egalitarian component is higher in countries which reduce the barriers that ordinary people face, when trying to exercise their formal rights. It is thus higher in countries where resources and rights are judged to be distributed equally across social groups, and where this allocation meets their basic needs. \\ \hline  	
+        
+    \end{longtable}
+    
+} % end the array command
+\clearpage
+
+\begin{table}[]
+\small
+\caption{Variables Testing Key Accounts of Democratization}
+\label{tab_keyaccounts} 
+\begin{tabular}{ ll|l }
+%& \textbf{Account of Democratization} & \textbf{Key Variables }\\
+\multicolumn{3}{l}{} \\
+\multicolumn{3}{ l }{\textit{Endogenous}} \\
+\multicolumn{3}{l}{} \\
+& Modernization & GDP per capita, Growth Rate, Urbanity, Educational Attainment \\ & Redistributivst & Income Inequality \\
+& Class-Based & Landlord Power, Disruptive Capacity \\
+\multicolumn{3}{l}{} \\
+\multicolumn{3}{l}{} \\
+\multicolumn{3}{ l }{\textit{Exogenous}} \\
+\multicolumn{3}{l}{} \\
+& Diffusion & Regional Average of Democracy Score, Globalization \\ 
+& Colonial Legacy & Colonial Dummies, Colonial Duration \\ 
+& Oil & Oil Production Per Capita \\
+& Population & Population \\
+& Ethnic Minority & Ethnic Fractionalization, Excluded Population \\
+& Institutional and Political History & Democratic Experience, Character of Authoritarian Regime \\ 
+\multicolumn{3}{l}{} \\
+\multicolumn{3}{l}{} \\
+\multicolumn{3}{ l }{\textit{Transition-Based}} \\
+\multicolumn{3}{l}{} \\
+& Contentious Mobilization & Years of Pro-Democratic Mobilization Leading to Transition \\ 
+\multicolumn{3}{l}{} \\
+\end{tabular}
+\end{table}
