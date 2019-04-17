@@ -7,6 +7,10 @@
 #no images
 data/*.RData
 
+#no cgv data
+data/CGV_dataset.dta
+data/CGV_dataset_AU.dta
+
 #folders
 archived/
 Drafts/
